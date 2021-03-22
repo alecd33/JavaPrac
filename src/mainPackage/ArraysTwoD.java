@@ -31,26 +31,26 @@ public class ArraysTwoD {
 		
 		System.out.println("--------Another Way of 2D array--------");
 		
-		int[][] numbers= {
+		int[][] nums= {
 				{1,2,3,4},
 				{10,20,30,40},
 				{100,200,300}
 		
 		};
 		
-		System.out.println(numbers[0][2]);
-		System.out.println(numbers[1][1]);
-		System.out.println(numbers[0][2]);
+		System.out.println(nums[0][2]);
+		System.out.println(nums[1][1]);
+		System.out.println(nums[0][2]);
 		
-		int sum=numbers[1][2]+numbers[0][3];
+		int sum=nums[1][2]+nums[0][3];
 				
 		System.out.println(sum);
 		
 		//numbers[0][4] error! Out of bounds!
 		
-		numbers[2][2]=500;
+		nums[2][2]=500;
 		
-		System.out.println(numbers[2][2]);
+		System.out.println(nums[2][2]);
 		
 		
 	}
